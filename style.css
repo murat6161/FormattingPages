@@ -1,0 +1,38 @@
+/*external styling*/
+
+th{
+    background-color: aquamarine;
+}
+
+/*Color with name*/
+h1{
+    color: chartreuse;
+}
+
+/*RED GREEN BLUE' 0 ile 255 arasinda degisir*/
+h2{
+    color: rgb(255,99,71);
+    border:5px solid red;
+    padding:15px;
+    margin:30px;
+}
+
+/* HEXADECIMAL , 00 DAN FF YE KADAR GIDEN BIR DEGER*/
+h3{
+    color: #FF6399;
+}
+
+/*HUE SATURATION LIGHTNESS*/
+h4{
+    color: hsl(12, %100, %55);
+}
+
+/*RGB ALPHA*/
+h5{
+    color:rgba(134, 56, 67, 0.7);
+}
+
+/*HSL ALPHA*/
+h6{
+    color: hsla(67, %15, %45, 0.7);
+}
